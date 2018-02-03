@@ -8,6 +8,24 @@ body {
     background-image: url("../images/background.jpg");
 }
 
+/* effects */ 
+
+a:link {
+    color: rgb(75, 72, 72);
+    
+}
+
+a:visited {
+    color: rgba(0, 255, 255, 0.37);
+}
+
+a:hover {
+    font-size: 10px;
+}
+
+a:active {
+    color: black;
+}
 /* Beginning of Header */
 
 .heading {
