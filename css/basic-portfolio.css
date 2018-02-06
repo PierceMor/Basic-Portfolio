@@ -15,12 +15,8 @@ a:link {
     
 }
 
-a:visited {
-    color: rgba(0, 255, 255, 0.37);
-}
-
 a:hover {
-    font-size: 10px;
+    color: grey;
 }
 
 a:active {
@@ -37,9 +33,15 @@ a:active {
     top: 0;
     left: 0;
     border-bottom-style: solid;
-    border-bottom-color: aquamarine;
+    border-bottom-color: #333;
     border-bottom-width: 5%;
     z-index: 10;
+}
+
+nav ul li a {
+    list-style-type: none;
+    text-decoration: none;
+    color: #333;
 }
 
 .top {
@@ -78,6 +80,16 @@ nav ul li {
     font-size: 18px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
+}
+
+.navbaritem2 {
+    display: inline-block;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    border-right-style:solid; 
+    border-left-style: solid;
+    border-color: grey;
 }
 
 
@@ -170,6 +182,12 @@ div.words {
     width: 100%;
     background-color: #4aaaa5;
     opacity: 0.9;
+    height: 40px;
+}
+
+p.words {
+    margin-top: 2px;
+    color: white;
 }
 
 /* beginning of contact form*/
@@ -229,5 +247,10 @@ fieldset {
     bottom: 0%;
     left: 0%;
     width: 100%;
-    height: 5%;
+    height: 70px;
+}
+
+.footer p {
+    color: white;
+    margin-top: 20px;
 }
